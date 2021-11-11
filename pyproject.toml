@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rero-bench"
+version = "0.1.0"
+description = "Database and Indexer Benchmark Tests"
+authors = ["Johnny Mariéthoz <Johnny.Mariethoz@rero.ch>"]
+
+[tool.poetry.dependencies]
+python = ">= 3.7"
+click = "^8.0.3"
+sqlalchemy = "^1.4.26"
+psycopg2 = "^2.9.1"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.29.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
