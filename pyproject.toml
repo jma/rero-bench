@@ -9,6 +9,7 @@ python = ">= 3.7"
 click = "^8.0.3"
 sqlalchemy = "^1.4.26"
 psycopg2 = "^2.9.1"
+pyyaml = "^6.0"
 
 [tool.poetry.dev-dependencies]
 ipython = "^7.29.0"

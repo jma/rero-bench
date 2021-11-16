@@ -1,0 +1,4 @@
+sqlite:
+  db: sqlite://
+# docker bench:
+#   db: postgresql+psycopg2://bench:bench@localhost:25432/bench
